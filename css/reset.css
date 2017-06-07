@@ -1,0 +1,27 @@
+body
+{
+    
+}
+#contents
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 25%;
+    font-family: 'Raleway', sans-serif;
+}
+#g2{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    margin-top: 15px;
+}
+#redirbtn
+{
+    margin-top: -10%;
+}
+@media only screen and (max-width: 880px){
+  #redirbtn {
+      
+    margin-top: -20%;
+}
+}

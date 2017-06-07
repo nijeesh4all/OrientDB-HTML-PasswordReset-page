@@ -1,0 +1,112 @@
+<html>
+
+<head>
+
+    <title>Reset Password</title>
+    <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js" type="text/javascript"></script>
+    <script src="scripts/passwordStrength.js" type="text/javascript"></script>
+
+</head>
+
+<body id="contents" onresize="resize()">
+    <div>
+        <div class="progress" id="progress-div">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%" id="progress-bar">
+                <span class="sr-only"></span>
+            </div>
+        </div>
+
+        <div id="email-validate">
+
+            <div class="input-group  has-feedback" id="g1">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope "></i></span>
+                <input id="email" type="text" class="form-control" name="email" placeholder="Enter your Email Id" id="email">
+                <span class="glyphicon  form-control-feedback" id="tick"></span>
+
+            </div>
+            <center>
+                <div id="email-error" style="color:red;font-size:10px"></div>
+            </center>
+
+            <br>
+            <center>
+                <a href="#" class="btn btn-primary btn-info" onclick="buttonClick()" id="button-email">Check <span class="glyphicon glyphicon-send"></span></a>
+            </center>
+
+
+        </div>
+
+    </div>
+    <div id="tokenBox">
+
+        <div class="input-group  has-feedback" id="g2">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock "></i></span>
+            <input type="text" class="form-control" name="token" placeholder="Enter your Token" id="token">
+            <span class="glyphicon  form-control-feedback" id="tick-token"></span>
+
+        </div>
+        <center>
+            <div id="token-error" style="color:red;font-size:10px"></div>
+        </center>
+
+        <br>
+        <center>
+            <a href="#" class="btn btn-primary btn-info" onclick="buttonClicktoken()" id="button-token">Verify <span class="glyphicon glyphicon-send"></span></a>
+        </center>
+
+
+    </div>
+    <div id="password">
+
+        <div class="input-group  has-feedback" id="g3">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock "></i></span>
+            <input type="password" class="form-control" name="pass" placeholder="Enter Your New Password" id="pass">
+            <span class="glyphicon  form-control-feedback" id="tick-pass"></span>
+
+        </div>
+        <div class="input-group  has-feedback" id="g4" style="margin-top:3%">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock "></i></span>
+            <input type="password" class="form-control" name="cpass" placeholder="Confirm Your New Password" id="cpass">
+            <span class="glyphicon  form-control-feedback" id="tick-cpass"></span>
+
+        </div>
+        <br><br>
+        <center>
+            <div id="pass-error" style="color:red;font-size:10px"></div>
+        </center>
+
+        <br>
+        <center>
+            <a href="#" class="btn btn-primary btn-info" onclick="buttonClickpass()" id="button-pass"> Change Password <span class="glyphicon glyphicon-send"></span></a>
+        </center>
+
+
+    </div>
+    <div id="onTop">
+        <div id="imgHolder">
+            <center>
+                <div id="doneImage">
+                    <img src="images/9136df0949a40e6567c6f4f7a6343672.gif">
+                </div>
+            </center>
+        </div>
+        <div id="redirbtn">
+
+
+
+            <center>
+                <a href="#" class="btn btn-primary btn-info" onclick="redir()" id="button-final"> Go Back To Login  <span class="glyphicon glyphicon-road"></span></a>
+            </center>
+        </div>
+    </div>
+    <script src="scripts/reset.js"></script>
+</body>
+
+</html>
