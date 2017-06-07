@@ -38,10 +38,12 @@ install PHPorient and PHPmailer by following instuctions on following links
 This Is working on a orientdb databse
 so in order for this to work you have to install orient db database server on your machine
 
+
 To install orient db follow this link
 [orientDb](https://orientdb.com)
 
 ## Authors
 
-Nijeesh Joshy
+Nijeesh Joshy 
+<br>
 N Pon Muhu Selvam
