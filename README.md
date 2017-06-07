@@ -17,16 +17,16 @@ Licence: BSD
 Compatibility: Django PHP 5.2.0+,OrientDB 2.0+
 
 
-### Prerequisites
+## Prerequisites
 
-''''
+```
 
 PHP Mailer
 PHP Orient
 
-''''
+```
 
-### Installing
+## Installing
 
 install PHPorient and PHPmailer by following instuctions on following links
 
@@ -41,7 +41,7 @@ so in order for this to work you have to install orient db database server on yo
 To install orient db follow this link
 [orientDb](https://orientdb.com)
 
-###Authors
+## Authors
 
 Nijeesh Joshy
 N Pon Muhu Selvam
