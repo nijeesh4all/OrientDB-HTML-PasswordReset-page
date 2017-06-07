@@ -2,13 +2,13 @@
 
 Progressive Php based Forgot password and Password reset page using jQuery 
 
-User filles his Email
-Email is verified for if it exist on databse
-If exists a Password reset Tokken is sent to the email
-The the page takes the user to token entry page
-When the user enters te token the token is sent to the server by ajax
-The token is verified and user is taken to Password reset page
-when the password is entered the password is updated on server
+User filles his Email<br>
+Email is verified for if it exist on databse<br>
+If exists a Password reset Tokken is sent to the email<br>
+The the page takes the user to token entry page<br>
+When the user enters te token the token is sent to the server by ajax<br>
+The token is verified and user is taken to Password reset page<br>
+when the password is entered the password is updated on server<br>
 
 
 
