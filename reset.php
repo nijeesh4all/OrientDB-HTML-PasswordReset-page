@@ -223,8 +223,8 @@ function  sendmail($email,$id)
 $mail = new PHPMailer();
 $mail->IsSMTP(); // send via SMTP
 $mail->SMTPAuth = true; // turn on SMTP authentication
-$mail->Username = "nijeesh4all@gmail.com"; // Enter your SMTP username
-$mail->Password = "Hacker007"; // SMTP password
+$mail->Username = "YOUR_Email_address"; // Enter your SMTP username
+$mail->Password = "YOUR_Password"; // SMTP password
 
 $webmaster_email = "no-replay@tabe.com"; //Add reply-to email address
 
@@ -236,10 +236,10 @@ $mail->AddReplyTo($webmaster_email,"Tabe Admin");
 
 $mail->Subject = "Password Reset";
 
-$mail->Body ="hai my name is nijeesh";
+$mail->Body ="MAIL BODY";
 
 $mail->send();
-echo mail('14be062@skcet.ac.in',$Subject,$Body);    
+echo mail('TO_MAIL_ID',$Subject,$Body);    
     
     
 }
